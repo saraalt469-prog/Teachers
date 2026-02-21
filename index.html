@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-content">
+        <a href="#open" id="open-menu">☰</a>
+        <h1>Личный кабинет преподавателя</h1>
+        <img
+          class="header__logo"
+          src="https://i.pinimg.com/1200x/89/25/87/892587046de0c4f4573e71991a5f5a58.jpg"
+          alt=""
+        />
+      </div>
+    </header>
+    <div id="open">
+      <div class="head-sideBar">
+        <p class="head-sideBar__text">Инструменты</p>
+      </div>
+      <div class="sideBar-wr">
+        <nav>
+          <a class="a" href="#addexercise">Добавить задание</a>
+          <br />
+          <a class="a" href="#addstudent">Добавить студента</a>
+        </nav>
+      </div>
+    </div>
+    <div class="content">
+      <div class="table-wr">
+        <p class="table-title">CТУДЕНТЫ</p>
+        <table class="table">
+          <tr class="tr">
+            <td>Имя</td>
+            <td>Фамилия</td>
+            <td>Номер телефона</td>
+          </tr>
+          <tr>
+            <td>Артём</td>
+            <td>Смирнов</td>
+            <td>+7 (965) 432-10-98</td>
+          </tr>
+          <tr>
+            <td>Мария</td>
+            <td>Кузнецова</td>
+            <td>+7 (951) 808-89-40</td>
+          </tr>
+          <tr>
+            <td>Анна</td>
+            <td>Морозова</td>
+            <td>+7 (951) 888-99-00</td>
+          </tr>
+          <tr>
+            <td>Елена</td>
+            <td>Волкова</td>
+            <td>+7 (985) 111-22-33</td>
+          </tr>
+          <tr>
+            <td>Иван</td>
+            <td>Петров</td>
+            <td>+7 (967) 777-44-55</td>
+          </tr>
+          <tr>
+            <td>Ольга</td>
+            <td>Васильева</td>
+            <td>+7 (951) 888-99-00 10</td>
+          </tr>
+          <tr>
+            <td>Максим</td>
+            <td>Соколов</td>
+            <td>+7 (916) 555-77-88</td>
+          </tr>
+          <tr>
+            <td>Екатерина</td>
+            <td>Лебедева</td>
+            <td>+7 (925) 123-45-67</td>
+          </tr>
+          <tr>
+            <td>Дмитрий</td>
+            <td>Ильин</td>
+            <td>+7 (910) 234-56-78</td>
+          </tr>
+        </table>
+      </div>
+      <div class="form-wr">
+        <p class="table-title" id="addstudent">добавления студента</p>
+        <form class="form" action="">
+          <input class="name" type="text" placeholder="Имя" />
+          <input class="lastname" type="text" placeholder="Фамилия" />
+          <input class="telephone" type="text" placeholder="Номер телефона" />
+          <button class="form-btn">Добавить</button>
+        </form>
+      </div>
+
+      <div class="exercise-wr">
+        <h3 class="exercise-title">Задания</h3>
+        <div class="exercise-block">
+          <h4 class="exercis">Задача - личный кабинет преподавателя</h4>
+          <p class="exercise-text">
+            Создайте веб-страницу, на которой преподаватель может: <br />
+            1. Добавлять задания <br />2. Добавлять учеников <br />
+            3. Смотреть на список заданий <br />
+            4. Смотреть на список учеников <br />
+            5. Видеть дату создания задания # Техническое задание (для учеников)
+            ## 1. Структура страниц Создайте страницы с: <br />
+            ### Формой добавления задания <br />
+            - input для текста задания <br />
+            - input с описанием задачи <br />
+            - кнопка “Добавить” <br />
+            ### Формой добавления ученика <br />
+            - input для имени ученика <br />
+            - input для фамилии ученика <br />- input для номера телефона
+            ученкиа <br />
+            - кнопка добавить
+          </p>
+        </div>
+      </div>
+      <div class="form-wr">
+        <p class="table-title" id="addexercise">Добавить задание</p>
+        <form class="form2" action="">
+          <input class="exercise" type="text" placeholder="задание" />
+          <input class="exercise2" type="text" placeholder="описание" />
+          <button class="form2-btn">Добавить</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
